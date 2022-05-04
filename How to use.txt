@@ -1,0 +1,30 @@
+If you use these source codes, please cite :
+
+% Šverko, Z.; Sajovic, J.; Drevenšek, G.; Vlahini´c, S.; Rogelj, P. Generation of Oscillatory Synthetic Signal Simulating Brain Network
+% Dynamics. In Proceedings of the 2021 44th International Convention on Information, Communication and Electronic Technology
+% (MIPRO), MEET—Microelectronics, Electronics and Electronic Technology, Opatija, Croatia, 27 September–1 October 2021.
+
+
+Function descriptions:
+plv - calculation of PLV index
+fun_pli - calculation of PLI index
+fun_wpli - calculation of wPLI index
+fun_M_phase_conn_Si_v3 - Calculation of multiple brain connectivity indices in one function.
+fun_plot_conn_matrix_Si - Drawing of connectivity matrices 
+generateSources - generation of sources of the Kuramoto model
+generateTestSignals - generation of test signals
+generate_averaging_signals - generation of one hundred test signals
+ukupni_signal - data produced by saved workspace  after RUN generate_averaging_signals
+fig_v1 - drawing graphs
+
+Note:
+Download ukupni_signal from:
+https://drive.google.com/drive/folders/1HBUF5M1Ew2JogEOCH9TQjPbmHatBg_8t?usp=sharing 
+
+ukupni_signal- you can not produce the same exactly the same signals because of random nature of oscillators
+
+
+Instructions for reproducing the work:
+1. run generate_averaging_signals 
+2. save the generated workspace 
+3. import the saved file into fig_v1.
